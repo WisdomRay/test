@@ -1,0 +1,235 @@
+@font-face {
+    font-family: myriad-pro-basealign;
+    src:url("./fonts/MyriadPro-Light.1.0.0.woff");
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: myriad-pro-light;
+    src:url("./fonts/MyriadPro-Regular-baseline.1.0.0.woff");
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: myriad-pro-semibold;
+    src:url("./fonts/MyriadPro-Regular.1.0.0.woff");
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: Roboto;
+    src:url("./fonts/Roboto-Regular.1.0.0.ttf");
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: Roboto-Medium;
+    src:url("./fonts/Roboto-Regular.1.0.0.ttf");
+    font-display: fallback;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+.navbar{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(0, 65, 101);
+    display: flex;
+    align-items: center;
+}
+.navbar img{
+    width: 100px;
+    height: 70px;
+    margin-left: 3%;
+}
+.section{
+    width: 100%;
+    height: 850px;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.section .same{
+    width: 55%;
+    margin: 50px 0;
+}
+.section .same1{
+    width: 45%;
+    margin: 50px 0;
+
+}
+.login{
+    width: 80%;
+    border: 1px solid  rgb(226, 228, 230) ;
+    margin:10px 25%;
+    padding-top: 40px ;
+    padding-bottom: 40px;
+
+}
+form #reg_no, #password{
+    display: flex;
+    flex-direction: column;
+    margin: 30px 10%;
+}
+form input{
+    height:40px;
+    border: 1px solid rgb(116, 118, 120);
+    border-radius: 4px;
+    outline: none;
+}
+form label{
+    color: rgb(73,73,73);
+}
+form input:hover{
+   border:1px solid rgb(0, 147, 216);
+    
+}
+#button{
+    margin: 0 10%;
+}
+#button button:hover{
+    background-color: rgb(0, 147, 216);
+    outline: none;
+}
+#links{
+    margin: 30px 10%;
+    display: flex;
+    justify-content: space-between;
+}
+#links a{
+    color: rgb(0, 114, 172);
+
+}
+#button button{
+    width: 100%;
+    border-radius: 4px;
+    font-weight: 600;
+    padding: 12px;
+    cursor: pointer;
+    color: #FFFFFF;
+    background-color:  rgb(0, 114, 172);
+    border: 1px transparent;
+    transition: background-color 0.2s ease 0s, border-color 0.2s ease 0s, color 0.2s ease 0s;
+    font-family: myriad-pro-semibold, sans-serif, sans-serif !important;
+}
+.panel{
+    margin: 60px 10%;
+}
+.panel p{
+    font-family: myriad-pro-light, sans-serif; 
+    text-align: left;
+    font-weight: 600;
+    line-height: 0.2;
+    letter-spacing: normal;
+    color: rgb(0, 65, 101);
+    font-size: 30px;
+}
+#txt, #div2 {
+    display: flex;
+    align-items: center;
+    margin: 20px 10%;
+}
+#txt p{
+    color: rgb(73,73,73);
+}
+#txt a{
+    color: rgb(0, 114, 172);
+    margin-left: 1%;
+}
+#div2 p{
+    color: rgb(73,73,73);
+    font-size: 14px;
+}
+#div2 a{
+    color: rgb(0, 114, 172);
+    font-size: 14px;
+    margin-left: 1%;
+}
+
+.same a, .same1 a{
+    text-decoration: none;
+    color: rgb(0, 114, 172);
+
+
+}
+.same a:hover, .same1 a:hover{
+    text-decoration: underline;
+}
+/* part1 */
+#part1{
+    display: flex;
+    flex-direction: column;
+    margin: 0 25%;
+}
+#part1 .same_link{
+    margin-top: -60px;
+    padding: 0;
+}
+#part1 img{
+    width: 250px;
+    height: 300px;
+    margin: 0;
+
+}
+.same_link {
+    display: flex;
+    flex-direction: column;
+}
+.same_link #a{
+    width: 80%;
+    font-family: myriad-pro-semibold, sans-serif, sans-serif;
+    font-weight: 700;
+}
+.same_link #vnz{
+    width: 150px;
+    height: 30px;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(0, 147, 216);
+    font-family: myriad-pro-semibold, sans-serif, sans-serif;
+    border-radius: 5px ;
+    font-weight: 700;
+    color: rgb(0, 114, 172);
+    cursor: pointer;
+
+}
+#part2{
+    margin: 40px 25%;
+}
+.last {
+    width: 42%;
+    margin: -13px 25%;
+    font-size: 15px;
+}
+.last a{
+    width: 10% ;
+    word-spacing: 2px;
+}
+#part2 p{
+    color: rgb(0, 65, 101);
+}
+#link2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+#link2 a{
+    width: 80%;
+    padding: 6px 0;
+}
+.footer{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(0, 114, 172);
+    padding: 20px 3%;
+    box-sizing: border-box;
+}
+.footer p{
+    color: rgb(255,255,255);
+}

@@ -1,0 +1,9 @@
+@media only screen and (max-width:992px) {
+    .login{
+        width: 90%;
+        margin-left: 20%;
+    }
+    #link2 a{
+        width:100% ;
+    }
+}
