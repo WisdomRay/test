@@ -128,9 +128,8 @@ form input:hover{
     font-size: 30px;
 }
 #txt, #div2 {
-    display: flex;
-    align-items: center;
     margin: 20px 10%;
+    width: 100%;
 }
 #txt p{
     color: rgb(73,73,73);
@@ -180,12 +179,12 @@ form input:hover{
 }
 .same_link #a{
     width: 80%;
-    font-family: myriad-pro-semibold, sans-serif, sans-serif;
+    font-family: myriad-pro-semibold, sans-serif;
     font-weight: 700;
 }
 .same_link #vnz{
     width: 150px;
-    height: 30px;
+    height: 35px;
     margin: 10px 0;
     display: flex;
     align-items: center;
@@ -218,6 +217,7 @@ form input:hover{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    width: 100%;
 
 }
 #link2 a{
