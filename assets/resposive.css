@@ -6,4 +6,91 @@
     #link2 a{
         width:100% ;
     }
+    .last{
+        display: none;
+    }
+    .same_link #a{
+        width: 95%;
+    }
+}
+@media only screen and (max-width:959px) {
+    .same_link{
+        width: 105%;
+    }
+    .same_link #a{
+        width: 100%;
+    }
+}
+@media only screen and (max-width:767px) {
+    .section{
+        display: flex;
+        flex-direction: column;
+        height: 1000px;
+        justify-content: space-evenly;
+        
+    }
+    .login{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        border: none;
+    }
+    .same{
+        width: 100% !important;
+        margin: 0 !important;
+        padding: 0;
+    }
+    .same_link #a{
+        width: 100%;
+    }
+    .panel, #password, #reg_no, #button,
+    #links, #txt, #div2 {
+        margin-left:3% !important ;
+        width: 93%;
+    }
+    .panel p{
+        font-size: 25px;
+    }
+    hr{
+        width: 93% !important;
+        margin-left: 3% !important;
+
+    }
+    .same1{
+        display: flex;
+        margin: 0 !important;
+        width: 100% !important;
+    }
+    #part1{
+        width: 50% ;
+        margin: 0 ;
+
+    }
+    #part1 img{
+        margin: -70px 3%;
+        width: 350px;
+        height: 350px;
+    }
+    #part2{
+        width: 50%;
+        margin: 0;
+
+    }
+    .same_link {
+        margin: 15px 3% !important;
+    }
+    .last{
+        width: 95%;
+        display: block;
+        margin: 20px 5%;
+    }
+
+    #link2 {
+        width: 100%;
+        margin:  0 5%;
+    }
+    #part2 p{
+        margin-left:  5%;
+    }
+    
 }
