@@ -40,6 +40,10 @@
     .same_link #a{
         width: 100%;
     }
+    #txt, #div2{
+        width: 80%;
+    }
+
 }
 @media  screen and (max-width:767px) {
     .section{
