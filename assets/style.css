@@ -232,5 +232,6 @@ form input:hover{
     box-sizing: border-box;
 }
 .footer p{
+    width: 100%;
     color: rgb(255,255,255);
 }

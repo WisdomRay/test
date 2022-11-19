@@ -21,7 +21,7 @@
         width: 100%;
     }
 }
-@media only screen and (max-width:767px) {
+@media  screen and (max-width:767px) {
     .section{
         display: flex;
         flex-direction: column;
@@ -64,33 +64,75 @@
     #part1{
         width: 50% ;
         margin: 0 ;
+        padding-left: 3%;
+        box-sizing: border-box;
 
     }
     #part1 img{
-        margin: -70px 3%;
-        width: 350px;
-        height: 350px;
+        margin-top: -40px;
+        /* width: 350px;
+        height: 350px; */
     }
     #part2{
         width: 50%;
         margin: 0;
+        padding-left: 4%;
+        box-sizing: border-box;
 
     }
     .same_link {
-        margin: 15px 3% !important;
+        width: 100%;
+        margin-top: -40px !important;
+    }
+    .same_link #a{
+        width: 95% !important;
+        line-height: 1.5;
     }
     .last{
-        width: 95%;
+        width: 90%;
         display: block;
-        margin: 20px 5%;
+        margin: 20px 0;
+    }
+    .last a{
+        font-size: 14px;
+        word-spacing: 0;
     }
 
     #link2 {
         width: 100%;
-        margin:  0 5%;
-    }
-    #part2 p{
-        margin-left:  5%;
     }
     
+}
+@media screen and (max-width:728px) {
+    .last{
+        word-spacing: 2px;
+    }
+
+}
+@media screen and (max-width:694px) {
+    .last{
+        word-spacing: 2px;
+    }
+    .last a{
+        font-size: 15px;
+    }
+    .same_link{
+        margin-top: -50px !important;
+    }
+
+}
+@media screen and (max-width:647px) {
+    .footer p{
+        width: 70%;
+    }
+
+}
+@media screen and (max-width:600px) {
+    .footer p{
+        width: 75%;
+    }
+    .same_link{
+        margin-top: -70px !important;
+    }
+
 }
